@@ -1,0 +1,15 @@
+{
+  "alertId": "ALT-2026-0501-007",
+  "ticker": "AAPL",
+  "side": "BUY",
+  "quantity": 5000,
+  "price": 184.27,
+  "tradingCapacity": "DEAL",
+  "executionTimestamp": "2026-05-01T14:33:21.412Z",
+  "venue": "XNAS",
+  "tags": ["principal", "internalized"],
+  "meta": {
+    "source": "prod-feed-1",
+    "version": "2.4.1"
+  }
+}
