@@ -5,7 +5,7 @@
 > 90%+ testing-productivity gains for a tier-1 bank's surveillance team.
 > This is the open, AI-augmented take.
 
-[![CI](https://github.com/atalayd/payload-diff/actions/workflows/ci.yml/badge.svg)](https://github.com/atalayd/payload-diff/actions/workflows/ci.yml)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 ---
