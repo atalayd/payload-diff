@@ -1,0 +1,59 @@
+{
+  "name": "@atalayd/payload-diff",
+  "version": "0.1.0",
+  "description": "Type-aware structural diff for JSON & XML payloads, with an AI-explanation mode (coming soon).",
+  "type": "module",
+  "bin": {
+    "payload-diff": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "prepare": "tsc",
+    "example": "tsx src/cli.ts examples/prod.json examples/uat.json"
+  },
+  "keywords": [
+    "diff",
+    "json",
+    "xml",
+    "reconciliation",
+    "payload",
+    "ai",
+    "llm",
+    "fintech",
+    "capital-markets"
+  ],
+  "author": "Atalay Durdu <atalaydurdu@gmail.com> (https://atalay-durdu.replit.app)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atalayd/payload-diff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atalayd/payload-diff/issues"
+  },
+  "homepage": "https://github.com/atalayd/payload-diff#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
