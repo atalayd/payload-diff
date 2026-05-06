@@ -13,7 +13,7 @@
 ## Why this exists
 
 In a previous role I built a private Excel + VBA tool that diffed Prod-vs-UAT
-JSON / XML payloads for a trade-surveillance team. It removed hours of manual
+JSON / XML payloads for the team. It removed hours of manual
 side-by-side comparison every day, drove a measurable **90%+ testing-productivity
 gain**, and got adopted across the organization.
 
@@ -158,7 +158,7 @@ npm run build        # emit dist/
 ## Author
 
 **Atalay Durdu** — AI Solutions Architect & Senior Business Analyst
-- Portfolio: [atalay-durdu.replit.app](https://atalay-durdu.replit.app)
+- Portfolio: [[atalaydurdu.com](https://www.atalaydurdu.com/))
 - GitHub:    [@atalayd](https://github.com/atalayd)
 
 ## License
